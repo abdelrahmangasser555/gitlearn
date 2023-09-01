@@ -1,0 +1,33 @@
+														commands in course 
+														------------------
+
+
+
+git rm -f <filename>  --> removes a file permenantly 
+
+git rm --cache <filename> --> removes the file from the commit 
+
+git log --> displays all the commits 
+
+git commit -m "message" --> making a commit to all files in the git folder
+
+git commit -a -m "message"  --> makes a commit with all the files in the statging are "git added "
+
+git chechout <the commit id> --> moves the head to a specific commit "the time machine"
+
+git checkout master --> moves the head to the first last commit 
+
+git revert <commit id > --> makes a new commit and make a change in the commit you reverted 
+
+git reset <commit id > --> reset to a specific period of time 
+
+--hard --> used with reset and it removes every thing after the commit you reseted to "not reccomended"
+
+--soft --> used with reset it changes a specific commit 
+
+--mixed --> used with reset it goes back one commit and it change it without removing any thing 
+
+
+--online --> used with log it showa all the commits commit per line help siaplaying all the commits 
+
+
