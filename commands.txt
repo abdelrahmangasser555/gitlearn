@@ -39,5 +39,14 @@ git reset <commit id > --> reset to a specific period of time
 
 3) remove all the cache in the staging area git rm -r -cache . 
 
+4)for ignoring an intire folder add /* after the name of the folder 
+
+
+#creating branchesdeleting them and directing to them and showing them 
+
+1)git checkout -b <branch name> -->creating a branch and dirscting to it by checkout
+2)git branch <branch name> --> creating a branch
+3)git branch -a(all) --> make a list of the branches you have 
+4)git branch -d <branch name > --> deleting a specific branch note -> can't delete a branch while you are on it 
 
 
