@@ -31,3 +31,13 @@ git reset <commit id > --> reset to a specific period of time
 --online --> used with log it showa all the commits commit per line help siaplaying all the commits 
 
 
+#using gitignore 
+
+1) first make a .gitignore file 
+
+2) add all the file name into the gitignore 
+
+3) remove all the cache in the staging area git rm -r -cache . 
+
+
+
