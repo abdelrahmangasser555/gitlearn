@@ -59,6 +59,7 @@ git remote add origin <https link to repo> --> makes a link between the local re
 
 
 
+<<<<<<< HEAD
 #general trags that can be used with remote repos 
 
 -n or --dry-run:
@@ -80,4 +81,6 @@ makes a mirror or a copy of the local repo in the remote repo
  
 
 
+=======
+>>>>>>> c3bc04d (pushing and pulling origin remote repo)
 
