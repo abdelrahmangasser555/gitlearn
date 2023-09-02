@@ -59,4 +59,25 @@ git remote add origin <https link to repo> --> makes a link between the local re
 
 
 
+#general trags that can be used with remote repos 
+
+-n or --dry-run:
+
+Simulate the push without actually making any changes. Useful for testing the push operation.
+
+-f or --force:
+
+Force the push, even if it results in non-fast-forward updates. Use with caution, as it can overwrite history.
+
+-delete:
+
+delete remote branch
+
+-mirror :
+
+makes a mirror or a copy of the local repo in the remote repo 
+
+ 
+
+
 
