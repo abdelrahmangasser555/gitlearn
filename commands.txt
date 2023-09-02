@@ -28,7 +28,7 @@ git reset <commit id > --> reset to a specific period of time
 --mixed --> used with reset it goes back one commit and it change it without removing any thing 
 
 
---online --> used with log it showa all the commits commit per line help siaplaying all the commits 
+--online --> used with log it show a all the commits commit per line help siaplaying all the commits 
 
 
 #using gitignore 
