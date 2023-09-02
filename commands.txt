@@ -49,4 +49,14 @@ git reset <commit id > --> reset to a specific period of time
 3)git branch -a(all) --> make a list of the branches you have 
 4)git branch -d <branch name > --> deleting a specific branch note -> can't delete a branch while you are on it 
 
+#git push and pull 
+
+git push -u origin <branch name > --> push to remote repo and the -u flag used to keep track of the branch automatically 
+
+git pull origin master --> pulls the master branch from the remote repo 
+
+git remote add origin <https link to repo> --> makes a link between the local repo and the remote repo 
+
+
+
 
