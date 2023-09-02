@@ -80,7 +80,23 @@ makes a mirror or a copy of the local repo in the remote repo
 
  
 
+------------------------------------------------------------------------------------------------------------------------
 
-=======
->>>>>>> c3bc04d (pushing and pulling origin remote repo)
+
+#git rebase 
+
+git rebase [options] [upstream] [branch]
+
+upstream: This is typically the branch you want to rebase onto. It represents the branch where you want to move or incorporate the changes.
+branch: This is the branch you want to rebase. It's the branch whose commit history you want to modify.
+
+-i or --interactive: Allows you to interactively choose which commits to pick, edit, squash, or drop during the rebase process.
+-p or --preserve-merges: Preserves merge commits during the rebase. Useful for maintaining a more accurate commit history.
+-f or --force-rebase: Forces the rebase even if the branch is up to date, helping you reapply commits if needed.
+-c or --continue: Resumes a rebase that was paused due to conflicts.
+--abort: Aborts a rebase in progress, returning your branch to its original state before the rebase.
+
+
+
+
 
