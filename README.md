@@ -31,5 +31,5 @@ To help you on your quest, here are some usage examples:
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/your-username/The-Git-Kingdom.git
+git clone https://github.com/abdelrahmangasser555/gitlearn.git
 
